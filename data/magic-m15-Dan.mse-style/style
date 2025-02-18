@@ -1,7 +1,7 @@
-﻿mse version: 2.0.0
+mse version: 2.0.0
 game: magic
-short name: M15 Extra Udelude
-full name: Udelude's M15 Template
+short name: HR
+full name: M15 high res with extra colors
 icon: card-sample.png
 installer group: magic/m15 style/normal cards/udelude
 position hint: 050
@@ -41,7 +41,6 @@ init script:
 	include file: font_m15
 	# Load scripts for image box
 	include file: /magic-default-image.mse-include/scripts
-	
 	
 	# Should hybrids have a grey name?
 	mask_hybrid_with_land := { contains(styling.regular_options, match:"grey hybrid names") }
